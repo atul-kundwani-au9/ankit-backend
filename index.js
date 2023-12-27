@@ -14,7 +14,7 @@ app.use(cors({
     credentials: true,
 }));
 
-const mongoURI = "mongodb+srv://aniket1997:C563ramdashati@cluster0.c0h0xtd.mongodb.net/?retryWrites=true&w=majority";
+const mongoURI = `mongodb+srv://data123:test123@cluster0.1chyhct.mongodb.net/`
 
 mongoose
   .connect(mongoURI, {
