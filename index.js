@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
-import dotenv from 'dotenv';
+// import dotenv from 'dotenv';
 
 dotenv.config(); // Load environment variables from .env
 
@@ -14,7 +14,7 @@ app.use(cors({
     credentials: true,
 }));
 
-const mongoURI = process.env.MONGO_URI;
+const mongoURI = "mongodb+srv://aniket1997:C563ramdashati@cluster0.c0h0xtd.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose
   .connect(mongoURI, {
