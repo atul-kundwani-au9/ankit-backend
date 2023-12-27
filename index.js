@@ -3,7 +3,7 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 // import dotenv from 'dotenv';
 
-dotenv.config(); // Load environment variables from .env
+// dotenv.config(); // Load environment variables from .env
 
 const app = express();
 app.use(express.json());
